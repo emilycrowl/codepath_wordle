@@ -13,6 +13,6 @@
     <item name="guess3" type="id" />
     <item name="guess3check" type="id" />
     <item name="tvCorrect" type="id" />
-    <item name="tvInput" type="id" />
+    <item name="etInput" type="id" />
     <item name="btnGuess" type="id" />
 </resources>

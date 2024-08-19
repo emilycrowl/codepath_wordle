@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // Initialize views
-        val editText: EditText = findViewById(R.id.tvInput)
+        val etInput: EditText = findViewById(R.id.etInput)
         val btnGuess: Button = findViewById(R.id.btnGuess)
 
         val tvGuess1: TextView = findViewById(R.id.tvGuess1)
@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         // Set up the click listener
         btnGuess.setOnClickListener {
             if (remainingGuesses > 0) {
-                var guess = editText.text.toString().uppercase()
+                var guess = etInput.text.toString().uppercase()
 
                 // Check if the guess length matches the word length
                 if (guess.length != wordToGuess.length) {
@@ -77,7 +77,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 // Clear the input field for the next guess
-                editText.text.clear()
+                etInput.text.clear()
             }
         }
     }

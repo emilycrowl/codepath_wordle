@@ -77,7 +77,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/tvInput"
+        android:id="@+id/etInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="24sp"
@@ -93,6 +93,6 @@
         android:layout_height="wrap_content"
         android:text="@string/guess"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tvInput"
+        app:layout_constraintStart_toEndOf="@+id/etInput"
         app:layout_constraintBottom_toBottomOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
