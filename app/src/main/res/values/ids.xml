@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvGuess1" type="id" />
+    <item name="tvGuess1Chk" type="id" />
+    <item name="tvGuess2" type="id" />
+    <item name="tvGuess2Chk" type="id" />
+    <item name="tvGuess3" type="id" />
+    <item name="tvGuess3Check" type="id" />
+    <item name="guess1" type="id" />
+    <item name="guess1check" type="id" />
+    <item name="guess2" type="id" />
+    <item name="guess2check" type="id" />
+    <item name="guess3" type="id" />
+    <item name="guess3check" type="id" />
+    <item name="tvCorrect" type="id" />
+    <item name="tvInput" type="id" />
+    <item name="btnGuess" type="id" />
+</resources>
